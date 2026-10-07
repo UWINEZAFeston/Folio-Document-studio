@@ -1,0 +1,11 @@
+{
+  "model_name": "google/flan-t5-small",
+  "use_llm": true,
+  "max_new_tokens": 6,
+  "do_sample": false,
+  "max_file_mb": 10,
+  "supported_input": ["txt", "pdf", "docx", "md", "html"],
+  "supported_output": ["txt", "pdf", "docx", "md", "html"],
+  "prompt_template": "Task: choose the output file format the user wants. Options: txt, pdf, docx, md, html.\nRequest: {request}\nAnswer with one option:",
+  "log_file": "logs/activity_log.jsonl"
+}

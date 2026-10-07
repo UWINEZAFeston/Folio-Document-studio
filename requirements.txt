@@ -1,0 +1,8 @@
+streamlit
+transformers
+torch
+pypdf
+pdfplumber
+python-docx
+reportlab
+markdown
